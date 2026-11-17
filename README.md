@@ -4,6 +4,9 @@ Prototype d’étude de cas FDE. Les entreprises, demandes et données commercia
 
 ## Démonstration publique
 
+- Application : https://catalya-prototype.vercel.app
+- Dépôt : https://github.com/Ilian-Allaf/catalya-prototype
+
 La version Vercel conserve un espace distinct par navigateur grâce à un cookie HttpOnly. Les dossiers, conversations, validations et documents sont enregistrés dans Vercel Blob privé. Ils expirent sept jours après leur dernière modification ; effacer le cookie fait perdre l’accès à cet espace. Utiliser uniquement des données fictives.
 
 Le mode IA utilise une clé OpenRouter côté serveur. Un plafond global de 100 analyses IA par jour limite les appels publics ; le mode local reste disponible. Le modèle et le plafond sont configurables par `OPENROUTER_MODEL` et `PUBLIC_AI_DAILY_LIMIT`.
