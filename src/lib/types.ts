@@ -1,0 +1,21 @@
+import { z } from 'zod';
+export const lineSchema=z.object({reference:z.string(),quantity:z.string().describe('Nombre en chiffres, sans espace ni séparateur de milliers. Unité séparée.'),unit:z.string(),evidence:z.string()});
+export const extractionSchema=z.object({
+  client:z.string().nullable(),contact:z.string().nullable(),address:z.string().nullable(),received_date:z.string().nullable(),
+  delivery_date:z.string().nullable().describe('Livraison physique AAAA-MM-JJ. Jamais la date de remise de l’offre.'),
+  exclusive_deadline:z.boolean(),flexible:z.boolean(),requested_discount:z.string().nullable().describe('Taux en pourcentage, nombre seul sans symbole %, par exemple 20. null si aucune remise explicite.'),agreement:z.string().nullable(),
+  export_requested:z.string().nullable().describe('Code Incoterm seul, par exemple CIF, FCA ou EXW. Ne pas inclure le port ou la destination. Jamais une devise. null si absent.'),currency_requested:z.string().describe('Code devise ISO tel que USD ou EUR. EUR si absente.'),
+  lines:z.array(lineSchema),partial_lines:z.array(z.object({reference:z.string().nullable(),quantity:z.string().nullable(),unit:z.string().nullable(),evidence:z.string()})),gaps:z.array(z.string())
+  ,answered_questions:z.array(z.object({code:z.string(),outcome:z.enum(['confirmed','retracted']),value:z.string().nullable(),evidence:z.string(),reply_index:z.number().int().nonnegative()})).describe('Réponses sémantiques aux questions déjà posées. Indice du complément dans le contexte serveur, extrait exact du tour utilisateur. [] sans complément. Pour currency, EUR uniquement si accepté ; retracted si refusé ou retiré. Ne vaut jamais autorisation interne.')
+});
+export type Extraction=z.infer<typeof extractionSchema>&{mode:'ai'|'local';mode_label:string;history_candidates?:History[];ai_trace?:ToolTrace[];model?:string;provider?:string;orchestrator?:string;resolved_notes?:string[];clarification_state?:{history_confirmed:boolean;delivery_date_resolved:boolean;delivery_year_inferred:boolean;currency_confirmed?:boolean;resolutions:{field:string;value:string;evidence:string;reply_index?:number}[]}};
+export type Product={'Référence':string;'Désignation':string;'Famille produit':string;'Prix catalogue (€/kg)':number;'Poids par unité (kg)':number;'Quantité minimale (kg)':number;'Délai standard (semaines)':number;'Code douanier (SH)':string;[key:string]:string|number};
+export type Client={'Code client':string;Segment:string;Pays:string;'Région commerciale':string;'Commercial référent':string;'Conditions de paiement':string;[key:string]:string|number};
+export type History={'N° devis':string;Client:string;Statut:string;'Date commande':string;'Référence':string;'Famille produit':string;kg:number};
+export type ToolTrace={tool:string;query?:string;result:unknown};
+export type QuoteRow={reference:string;description:string;requested_kg:string;quantity_kg:string;unit_price:string;gross:string;pack_kg:string;lead_weeks:number;evidence:string;hs_code:string};
+export type Question={code:string;question:string;audience:'client'|'internal';owner:string};
+export type Quote={request_id:number;version:number;source:string;source_hash:string;pipeline_version:string;extraction:Extraction;tariff_version:string;processing_date:string;client:Client|null;rows:QuoteRow[];gross:string;rush_rate:string;surcharge:string;volume_rate:string;strategic_rate:string;delay_rate:string;theoretical_rate:string;discount_rate:string;discount:string;net:string;packing:string;vat_rate:string;vat:string;total:string;export:boolean;blocks:string[];warnings:string[];status:'a_clarifier'|'a_revoir'|'approuve'|'devis_genere';lead_weeks:number;approver:string|null;pricing_state:'not_calculable'|'partial'|'complete';clarification:{questions:Question[];client_message:string|null;sent:false;requires_client_reply:boolean;has_partial_lines:boolean};events?:AuditEvent[]};
+export type AuditEvent={id:number;version:number;happened_at:string;action:string;actor:string;details:string};
+export type ChatMessage={role:'user'|'assistant';content:string;version?:number};
+export type AgentEvent={type:'status';message:string}|{type:'tool';name:string;query:string}|{type:'result';quote:Quote;messages:ChatMessage[]}|{type:'error';message:string};

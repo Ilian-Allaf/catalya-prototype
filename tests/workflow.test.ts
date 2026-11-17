@@ -1,0 +1,28 @@
+import { test } from 'node:test';
+import assert from 'node:assert/strict';
+import { mkdtempSync,readFileSync } from 'node:fs';
+import { tmpdir } from 'node:os';
+import path from 'node:path';
+import JSZip from 'jszip';
+import { analyze,approve } from '../src/server/workflow';
+import { document } from '../src/server/documents';
+import { localExtract,volumeDiscount } from '../src/server/business';
+import { revision,hash,VERSION,database } from '../src/server/db';
+process.env.CATALYA_DB=path.join(mkdtempSync(path.join(tmpdir(),'catalya-tests-')),'test.db');
+const data=JSON.parse(readFileSync('evals/dataset.json','utf8'));
+const date=data.processing_date;
+for(const c of data.cases)test('Parité : '+c.name,async()=>{const {quote:p}=await analyze({text:c.text,processing_date:date,mode:'local'});assert.equal(p.extraction.client,c.expected.client);if(c.expected.net)assert.equal(p.net,c.expected.net);if(c.expected.total)assert.equal(p.total,c.expected.total);assert.deepEqual(p.rows.map(r=>[r.reference,r.requested_kg,r.quantity_kg]).sort(),c.expected.lines.map((r:{reference:string;requested_kg:string;proposed_kg:string})=>[r.reference,r.requested_kg,r.proposed_kg]).sort());if(c.expected.status!=='either')assert.equal(!!p.blocks.length,c.expected.status==='blocked');});
+test('Paliers exacts et bornes',()=>{for(const [gross,expected] of [[49999.99,0],[50000,3],[149999.99,3],[150000,6],[399999.99,6],[400000,9]])assert.equal(volumeDiscount(gross),expected);});
+test('Pas de document ni approbation pour une demande incomplète',async()=>{const {quote:p}=await analyze({text:data.cases.find((c:{id:string})=>c.id==='missing-quantity').text,processing_date:date,mode:'local'});assert.equal(p.pricing_state,'not_calculable');assert(p.extraction.partial_lines.length);assert(p.clarification.questions.some(q=>q.code.startsWith('quantity')));assert.throws(()=>approve(p.request_id,p.version,'Recette'),/validations métier/);await assert.rejects(()=>document(p.request_id,p.version),/Validez/);});
+test('Approbation, document Word, nouveau calcul et refus de version périmée',async()=>{const {quote:p}=await analyze({text:data.cases[0].text,processing_date:date,mode:'local'});await assert.rejects(()=>document(p.request_id,p.version),/Validez/);approve(p.request_id,p.version,'Recette');const result=await document(p.request_id,p.version);assert(result.url.includes('download'));const {download}=await import('../src/server/documents');const z=await JSZip.loadAsync(download(p.request_id,p.version).buffer);const xml=await z.file('word/document.xml')!.async('string');assert(!xml.includes('{{'));assert(xml.includes('233 120,00'));const next=await analyze({text:data.cases[0].text.replace('8 000 kg','10 000 kg'),mode:'local',processing_date:date,request_id:p.request_id,expected_version:p.version});assert.equal(next.quote.net,'291400.00');assert.equal(next.quote.approver,null);assert.throws(()=>approve(p.request_id,p.version,'Recette'),/Version modifiée/);await assert.rejects(()=>document(p.request_id,p.version),/Validez/);});
+test('Doublon réutilisé, IA absente explicite et quantité zéro refusée',async()=>{const src=data.cases[0].text+'\nTest doublon';const a=await analyze({text:src,mode:'local',processing_date:date});const b=await analyze({text:src,mode:'local',processing_date:date});assert.equal(a.quote.version,b.quote.version);assert.equal(a.quote.request_id,b.quote.request_id);const saved=process.env.OPENROUTER_API_KEY;delete process.env.OPENROUTER_API_KEY;await assert.rejects(()=>analyze({text:src+' IA',mode:'ai',processing_date:date}),/Clé OpenRouter absente/);if(saved)process.env.OPENROUTER_API_KEY=saved;await assert.rejects(()=>analyze({text:src.replace('8 000 kg','0 kg'),mode:'local',processing_date:date}),/Quantité hors limites/);});
+test('Réponses et décisions internes séparées',async()=>{const {quote:p}=await analyze({text:data.cases[4].text,mode:'local',processing_date:date});assert(p.clarification.questions.some(q=>q.audience==='internal'&&q.code==='discount'));assert(!p.clarification.client_message?.includes('autorisation écrite'));assert.equal(p.clarification.sent,false);});
+test('Tarif source figé et schéma invalide refusé',async()=>{const row=database().prepare('SELECT source_hash FROM tariff_versions WHERE id=?').get(VERSION);assert.equal(row?.source_hash,hash(readFileSync('data/referentiel.json')));await assert.rejects(()=>analyze({text:'Bonjour',mode:'local',processing_date:'2026-02-31'}));assert.equal(revision(1).tariff_version,VERSION);});
+test('Validation API sans nom : clic explicite, identité de démo et blocages conservés',async()=>{
+ const {POST}=await import('../src/app/api/requests/[id]/approve/route');
+ const ready=(await analyze({text:data.cases[0].text+'\nValidation sans nom',mode:'local',processing_date:date})).quote;
+ const request=(version:number)=>new Request('http://localhost/api/approve',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({version})});
+ const result=await POST(request(ready.version),{params:Promise.resolve({id:String(ready.request_id)})});assert.equal(result.status,200);const p=await result.json();assert.equal(p.status,'approuve');assert.equal(p.approver,'Utilisateur de démonstration');
+ const blocked=(await analyze({text:data.cases[4].text,mode:'local',processing_date:date})).quote;assert.equal((await POST(request(blocked.version),{params:Promise.resolve({id:String(blocked.request_id)})})).status,409);
+ assert.equal((await POST(request(ready.version+1),{params:Promise.resolve({id:String(ready.request_id)})})).status,409);
+});

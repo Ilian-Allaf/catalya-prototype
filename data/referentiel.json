@@ -1,0 +1,1317 @@
+{
+  "catalogue": {
+    "HDT-CM-100": {
+      "Référence": "HDT-CM-100",
+      "Désignation": "Catalyseur CoMo standard",
+      "Famille produit": "Hydrotraitement",
+      "Prix catalogue (€/kg)": 28,
+      "Coût de revient standard (€/kg)": 17.4,
+      "Conditionnement": "Fût",
+      "Poids par unité (kg)": 200,
+      "Quantité minimale (kg)": 400,
+      "Délai standard (semaines)": 6,
+      "Site de production": "Le Havre",
+      "Code douanier (SH)": "3815.19"
+    },
+    "HDT-CM-200": {
+      "Référence": "HDT-CM-200",
+      "Désignation": "Catalyseur CoMo haute activité",
+      "Famille produit": "Hydrotraitement",
+      "Prix catalogue (€/kg)": 36,
+      "Coût de revient standard (€/kg)": 21.9,
+      "Conditionnement": "Fût",
+      "Poids par unité (kg)": 200,
+      "Quantité minimale (kg)": 400,
+      "Délai standard (semaines)": 6,
+      "Site de production": "Le Havre",
+      "Code douanier (SH)": "3815.19"
+    },
+    "HDT-NM-100": {
+      "Référence": "HDT-NM-100",
+      "Désignation": "Catalyseur NiMo standard",
+      "Famille produit": "Hydrotraitement",
+      "Prix catalogue (€/kg)": 31,
+      "Coût de revient standard (€/kg)": 19.5,
+      "Conditionnement": "Fût",
+      "Poids par unité (kg)": 200,
+      "Quantité minimale (kg)": 400,
+      "Délai standard (semaines)": 6,
+      "Site de production": "Le Havre",
+      "Code douanier (SH)": "3815.19"
+    },
+    "HDT-NM-300": {
+      "Référence": "HDT-NM-300",
+      "Désignation": "Catalyseur NiMo ultra-basse teneur en soufre",
+      "Famille produit": "Hydrotraitement",
+      "Prix catalogue (€/kg)": 42,
+      "Coût de revient standard (€/kg)": 25.6,
+      "Conditionnement": "Fût",
+      "Poids par unité (kg)": 200,
+      "Quantité minimale (kg)": 400,
+      "Délai standard (semaines)": 6,
+      "Site de production": "Le Havre",
+      "Code douanier (SH)": "3815.19"
+    },
+    "FCC-ZY-10": {
+      "Référence": "FCC-ZY-10",
+      "Désignation": "Catalyseur FCC zéolithe Y standard",
+      "Famille produit": "Craquage catalytique",
+      "Prix catalogue (€/kg)": 6.2,
+      "Coût de revient standard (€/kg)": 4.9,
+      "Conditionnement": "Big bag",
+      "Poids par unité (kg)": 1000,
+      "Quantité minimale (kg)": 5000,
+      "Délai standard (semaines)": 4,
+      "Site de production": "Le Havre",
+      "Code douanier (SH)": "3815.90"
+    },
+    "FCC-ZY-20": {
+      "Référence": "FCC-ZY-20",
+      "Désignation": "Catalyseur FCC zéolithe Y haute conversion",
+      "Famille produit": "Craquage catalytique",
+      "Prix catalogue (€/kg)": 7.8,
+      "Coût de revient standard (€/kg)": 6.05,
+      "Conditionnement": "Big bag",
+      "Poids par unité (kg)": 1000,
+      "Quantité minimale (kg)": 5000,
+      "Délai standard (semaines)": 4,
+      "Site de production": "Le Havre",
+      "Code douanier (SH)": "3815.90"
+    },
+    "FCC-AD-05": {
+      "Référence": "FCC-AD-05",
+      "Désignation": "Additif FCC ZSM-5 (propylène)",
+      "Famille produit": "Craquage catalytique",
+      "Prix catalogue (€/kg)": 14.5,
+      "Coût de revient standard (€/kg)": 11.2,
+      "Conditionnement": "Big bag",
+      "Poids par unité (kg)": 500,
+      "Quantité minimale (kg)": 1000,
+      "Délai standard (semaines)": 4,
+      "Site de production": "Le Havre",
+      "Code douanier (SH)": "3815.90"
+    },
+    "FCC-AD-08": {
+      "Référence": "FCC-AD-08",
+      "Désignation": "Additif FCC DeSOx",
+      "Famille produit": "Craquage catalytique",
+      "Prix catalogue (€/kg)": 12,
+      "Coût de revient standard (€/kg)": 9.4,
+      "Conditionnement": "Big bag",
+      "Poids par unité (kg)": 500,
+      "Quantité minimale (kg)": 1000,
+      "Délai standard (semaines)": 4,
+      "Site de production": "Le Havre",
+      "Code douanier (SH)": "3815.90"
+    },
+    "TMS-3A": {
+      "Référence": "TMS-3A",
+      "Désignation": "Tamis moléculaire 3A",
+      "Famille produit": "Tamis moléculaires et adsorbants",
+      "Prix catalogue (€/kg)": 5.4,
+      "Coût de revient standard (€/kg)": 3.8,
+      "Conditionnement": "Fût",
+      "Poids par unité (kg)": 150,
+      "Quantité minimale (kg)": 600,
+      "Délai standard (semaines)": 3,
+      "Site de production": "Salaise-sur-Sanne",
+      "Code douanier (SH)": "2842.10"
+    },
+    "TMS-4A": {
+      "Référence": "TMS-4A",
+      "Désignation": "Tamis moléculaire 4A",
+      "Famille produit": "Tamis moléculaires et adsorbants",
+      "Prix catalogue (€/kg)": 4.8,
+      "Coût de revient standard (€/kg)": 3.35,
+      "Conditionnement": "Fût",
+      "Poids par unité (kg)": 150,
+      "Quantité minimale (kg)": 600,
+      "Délai standard (semaines)": 3,
+      "Site de production": "Salaise-sur-Sanne",
+      "Code douanier (SH)": "2842.10"
+    },
+    "TMS-13X": {
+      "Référence": "TMS-13X",
+      "Désignation": "Tamis moléculaire 13X",
+      "Famille produit": "Tamis moléculaires et adsorbants",
+      "Prix catalogue (€/kg)": 7.9,
+      "Coût de revient standard (€/kg)": 5.5,
+      "Conditionnement": "Fût",
+      "Poids par unité (kg)": 150,
+      "Quantité minimale (kg)": 600,
+      "Délai standard (semaines)": 3,
+      "Site de production": "Salaise-sur-Sanne",
+      "Code douanier (SH)": "2842.10"
+    },
+    "ADS-AL-01": {
+      "Référence": "ADS-AL-01",
+      "Désignation": "Alumine activée",
+      "Famille produit": "Tamis moléculaires et adsorbants",
+      "Prix catalogue (€/kg)": 3.6,
+      "Coût de revient standard (€/kg)": 2.55,
+      "Conditionnement": "Big bag",
+      "Poids par unité (kg)": 1000,
+      "Quantité minimale (kg)": 1000,
+      "Délai standard (semaines)": 3,
+      "Site de production": "Salaise-sur-Sanne",
+      "Code douanier (SH)": "2818.20"
+    },
+    "HYD-NI-50": {
+      "Référence": "HYD-NI-50",
+      "Désignation": "Catalyseur nickel 50 % sur silice",
+      "Famille produit": "Hydrogénation",
+      "Prix catalogue (€/kg)": 58,
+      "Coût de revient standard (€/kg)": 33.6,
+      "Conditionnement": "Fût",
+      "Poids par unité (kg)": 100,
+      "Quantité minimale (kg)": 200,
+      "Délai standard (semaines)": 8,
+      "Site de production": "Lacq",
+      "Code douanier (SH)": "3815.11"
+    },
+    "HYD-NI-65": {
+      "Référence": "HYD-NI-65",
+      "Désignation": "Catalyseur nickel 65 % sur silice",
+      "Famille produit": "Hydrogénation",
+      "Prix catalogue (€/kg)": 72,
+      "Coût de revient standard (€/kg)": 41.8,
+      "Conditionnement": "Fût",
+      "Poids par unité (kg)": 100,
+      "Quantité minimale (kg)": 200,
+      "Délai standard (semaines)": 8,
+      "Site de production": "Lacq",
+      "Code douanier (SH)": "3815.11"
+    },
+    "HYD-PD-05": {
+      "Référence": "HYD-PD-05",
+      "Désignation": "Catalyseur palladium 0,5 % sur alumine (hors métal précieux)",
+      "Famille produit": "Hydrogénation",
+      "Prix catalogue (€/kg)": 95,
+      "Coût de revient standard (€/kg)": 55,
+      "Conditionnement": "Fût",
+      "Poids par unité (kg)": 50,
+      "Quantité minimale (kg)": 100,
+      "Délai standard (semaines)": 8,
+      "Site de production": "Lacq",
+      "Code douanier (SH)": "3815.12"
+    },
+    "HYD-CU-30": {
+      "Référence": "HYD-CU-30",
+      "Désignation": "Catalyseur cuivre-zinc",
+      "Famille produit": "Hydrogénation",
+      "Prix catalogue (€/kg)": 34,
+      "Coût de revient standard (€/kg)": 20,
+      "Conditionnement": "Fût",
+      "Poids par unité (kg)": 100,
+      "Quantité minimale (kg)": 200,
+      "Délai standard (semaines)": 8,
+      "Site de production": "Lacq",
+      "Code douanier (SH)": "3815.19"
+    },
+    "DNX-SCR-V1": {
+      "Référence": "DNX-SCR-V1",
+      "Désignation": "Catalyseur SCR nid d'abeille standard",
+      "Famille produit": "Dépollution et DeNOx",
+      "Prix catalogue (€/kg)": 18.5,
+      "Coût de revient standard (€/kg)": 12,
+      "Conditionnement": "Module",
+      "Poids par unité (kg)": 250,
+      "Quantité minimale (kg)": 500,
+      "Délai standard (semaines)": 6,
+      "Site de production": "Salaise-sur-Sanne",
+      "Code douanier (SH)": "3815.19"
+    },
+    "DNX-SCR-V2": {
+      "Référence": "DNX-SCR-V2",
+      "Désignation": "Catalyseur SCR nid d'abeille haute température",
+      "Famille produit": "Dépollution et DeNOx",
+      "Prix catalogue (€/kg)": 22,
+      "Coût de revient standard (€/kg)": 14.3,
+      "Conditionnement": "Module",
+      "Poids par unité (kg)": 250,
+      "Quantité minimale (kg)": 500,
+      "Délai standard (semaines)": 6,
+      "Site de production": "Salaise-sur-Sanne",
+      "Code douanier (SH)": "3815.19"
+    },
+    "DNX-OX-CO": {
+      "Référence": "DNX-OX-CO",
+      "Désignation": "Catalyseur d'oxydation du CO",
+      "Famille produit": "Dépollution et DeNOx",
+      "Prix catalogue (€/kg)": 64,
+      "Coût de revient standard (€/kg)": 41.5,
+      "Conditionnement": "Fût",
+      "Poids par unité (kg)": 150,
+      "Quantité minimale (kg)": 300,
+      "Délai standard (semaines)": 6,
+      "Site de production": "Salaise-sur-Sanne",
+      "Code douanier (SH)": "3815.12"
+    },
+    "DNX-COV-01": {
+      "Référence": "DNX-COV-01",
+      "Désignation": "Catalyseur d'oxydation des COV",
+      "Famille produit": "Dépollution et DeNOx",
+      "Prix catalogue (€/kg)": 48,
+      "Coût de revient standard (€/kg)": 31,
+      "Conditionnement": "Fût",
+      "Poids par unité (kg)": 150,
+      "Quantité minimale (kg)": 300,
+      "Délai standard (semaines)": 6,
+      "Site de production": "Salaise-sur-Sanne",
+      "Code douanier (SH)": "3815.12"
+    },
+    "OXY-VA-01": {
+      "Référence": "OXY-VA-01",
+      "Désignation": "Catalyseur au vanadium (acide sulfurique)",
+      "Famille produit": "Oxydation et chimie de spécialité",
+      "Prix catalogue (€/kg)": 11.5,
+      "Coût de revient standard (€/kg)": 7,
+      "Conditionnement": "Fût",
+      "Poids par unité (kg)": 200,
+      "Quantité minimale (kg)": 1000,
+      "Délai standard (semaines)": 8,
+      "Site de production": "Lacq",
+      "Code douanier (SH)": "3815.19"
+    },
+    "OXY-AG-20": {
+      "Référence": "OXY-AG-20",
+      "Désignation": "Catalyseur argent sur alumine (oxyde d'éthylène, hors métal précieux)",
+      "Famille produit": "Oxydation et chimie de spécialité",
+      "Prix catalogue (€/kg)": 85,
+      "Coût de revient standard (€/kg)": 50,
+      "Conditionnement": "Fût",
+      "Poids par unité (kg)": 100,
+      "Quantité minimale (kg)": 200,
+      "Délai standard (semaines)": 8,
+      "Site de production": "Lacq",
+      "Code douanier (SH)": "3815.12"
+    },
+    "OXY-FM-10": {
+      "Référence": "OXY-FM-10",
+      "Désignation": "Catalyseur fer-molybdène (formaldéhyde)",
+      "Famille produit": "Oxydation et chimie de spécialité",
+      "Prix catalogue (€/kg)": 39,
+      "Coût de revient standard (€/kg)": 23.5,
+      "Conditionnement": "Fût",
+      "Poids par unité (kg)": 100,
+      "Quantité minimale (kg)": 200,
+      "Délai standard (semaines)": 8,
+      "Site de production": "Lacq",
+      "Code douanier (SH)": "3815.90"
+    },
+    "OXY-CU-12": {
+      "Référence": "OXY-CU-12",
+      "Désignation": "Catalyseur au cuivre (oxychloration)",
+      "Famille produit": "Oxydation et chimie de spécialité",
+      "Prix catalogue (€/kg)": 27,
+      "Coût de revient standard (€/kg)": 16.5,
+      "Conditionnement": "Fût",
+      "Poids par unité (kg)": 200,
+      "Quantité minimale (kg)": 400,
+      "Délai standard (semaines)": 8,
+      "Site de production": "Lacq",
+      "Code douanier (SH)": "3815.19"
+    }
+  },
+  "clients": {
+    "Adour Chimie Fine": {
+      "Code client": "C1038",
+      "Raison sociale": "Adour Chimie Fine",
+      "Segment": "Standard",
+      "Pays": "France",
+      "Région commerciale": "France Sud",
+      "Commercial référent": "Nadia Haddad",
+      "Conditions de paiement": "30 jours fin de mois"
+    },
+    "Ain Peintures": {
+      "Code client": "C1054",
+      "Raison sociale": "Ain Peintures",
+      "Segment": "Standard",
+      "Pays": "France",
+      "Région commerciale": "France Est",
+      "Commercial référent": "Julien Roche",
+      "Conditions de paiement": "30 jours fin de mois"
+    },
+    "Anadolu Rafineri AS": {
+      "Code client": "C1105",
+      "Raison sociale": "Anadolu Rafineri AS",
+      "Segment": "Standard",
+      "Pays": "Turquie",
+      "Région commerciale": "Export hors UE",
+      "Commercial référent": "Karim Benali",
+      "Conditions de paiement": "Crédit documentaire ou virement avant expédition"
+    },
+    "Andaluza de Fertilizantes SA": {
+      "Code client": "C1090",
+      "Raison sociale": "Andaluza de Fertilizantes SA",
+      "Segment": "Standard",
+      "Pays": "Espagne",
+      "Région commerciale": "Europe du Sud",
+      "Commercial référent": "Elena Rossi",
+      "Conditions de paiement": "30 jours fin de mois"
+    },
+    "Antwerp Aromatics NV": {
+      "Code client": "C1058",
+      "Raison sociale": "Antwerp Aromatics NV",
+      "Segment": "Grand compte",
+      "Pays": "Belgique",
+      "Région commerciale": "Benelux",
+      "Commercial référent": "Laura Giraud",
+      "Conditions de paiement": "60 jours date de facture"
+    },
+    "Aquitaine Résines": {
+      "Code client": "C1030",
+      "Raison sociale": "Aquitaine Résines",
+      "Segment": "Standard",
+      "Pays": "France",
+      "Région commerciale": "France Sud",
+      "Commercial référent": "Nadia Haddad",
+      "Conditions de paiement": "30 jours fin de mois"
+    },
+    "Ardennes Fonderie": {
+      "Code client": "C1056",
+      "Raison sociale": "Ardennes Fonderie",
+      "Segment": "Standard",
+      "Pays": "France",
+      "Région commerciale": "France Est",
+      "Commercial référent": "Julien Roche",
+      "Conditions de paiement": "30 jours fin de mois"
+    },
+    "Armor Nutrition": {
+      "Code client": "C1018",
+      "Raison sociale": "Armor Nutrition",
+      "Segment": "Standard",
+      "Pays": "France",
+      "Région commerciale": "France Nord",
+      "Commercial référent": "Thomas Lemaire",
+      "Conditions de paiement": "30 jours fin de mois"
+    },
+    "Artois Biocarburants": {
+      "Code client": "C1009",
+      "Raison sociale": "Artois Biocarburants",
+      "Segment": "Standard",
+      "Pays": "France",
+      "Région commerciale": "France Nord",
+      "Commercial référent": "Claire Besson",
+      "Conditions de paiement": "30 jours fin de mois"
+    },
+    "Atlas Phosphates et Chimie SA": {
+      "Code client": "C1101",
+      "Raison sociale": "Atlas Phosphates et Chimie SA",
+      "Segment": "Standard",
+      "Pays": "Maroc",
+      "Région commerciale": "Export hors UE",
+      "Commercial référent": "Karim Benali",
+      "Conditions de paiement": "Crédit documentaire ou virement avant expédition"
+    },
+    "Beauce Agrochimie": {
+      "Code client": "C1020",
+      "Raison sociale": "Beauce Agrochimie",
+      "Segment": "Standard",
+      "Pays": "France",
+      "Région commerciale": "France Nord",
+      "Commercial référent": "Thomas Lemaire",
+      "Conditions de paiement": "30 jours fin de mois"
+    },
+    "Bodensee Feinchemie GmbH": {
+      "Code client": "C1074",
+      "Raison sociale": "Bodensee Feinchemie GmbH",
+      "Segment": "Standard",
+      "Pays": "Allemagne",
+      "Région commerciale": "Allemagne-Autriche",
+      "Commercial référent": "Markus Weber",
+      "Conditions de paiement": "30 jours fin de mois"
+    },
+    "Bosphore Kimya AS": {
+      "Code client": "C1104",
+      "Raison sociale": "Bosphore Kimya AS",
+      "Segment": "Standard",
+      "Pays": "Turquie",
+      "Région commerciale": "Export hors UE",
+      "Commercial référent": "Karim Benali",
+      "Conditions de paiement": "Crédit documentaire ou virement avant expédition"
+    },
+    "Bourgogne Solvants": {
+      "Code client": "C1051",
+      "Raison sociale": "Bourgogne Solvants",
+      "Segment": "Standard",
+      "Pays": "France",
+      "Région commerciale": "France Est",
+      "Commercial référent": "Sophie Marchal",
+      "Conditions de paiement": "30 jours fin de mois"
+    },
+    "Brabant Fertilizers BV": {
+      "Code client": "C1066",
+      "Raison sociale": "Brabant Fertilizers BV",
+      "Segment": "Standard",
+      "Pays": "Pays-Bas",
+      "Région commerciale": "Benelux",
+      "Commercial référent": "Laura Giraud",
+      "Conditions de paiement": "30 jours fin de mois"
+    },
+    "Bretagne Biogaz": {
+      "Code client": "C1017",
+      "Raison sociale": "Bretagne Biogaz",
+      "Segment": "Standard",
+      "Pays": "France",
+      "Région commerciale": "France Nord",
+      "Commercial référent": "Claire Besson",
+      "Conditions de paiement": "30 jours fin de mois"
+    },
+    "Béarn Thiochimie": {
+      "Code client": "C1031",
+      "Raison sociale": "Béarn Thiochimie",
+      "Segment": "Standard",
+      "Pays": "France",
+      "Région commerciale": "France Sud",
+      "Commercial référent": "Pierre Vasseur",
+      "Conditions de paiement": "30 jours fin de mois"
+    },
+    "Camargue Sels et Chimie": {
+      "Code client": "C1028",
+      "Raison sociale": "Camargue Sels et Chimie",
+      "Segment": "Standard",
+      "Pays": "France",
+      "Région commerciale": "France Sud",
+      "Commercial référent": "Nadia Haddad",
+      "Conditions de paiement": "30 jours fin de mois"
+    },
+    "Cantábrica de Polímeros SA": {
+      "Code client": "C1089",
+      "Raison sociale": "Cantábrica de Polímeros SA",
+      "Segment": "Standard",
+      "Pays": "Espagne",
+      "Région commerciale": "Europe du Sud",
+      "Commercial référent": "Antoine Perrin",
+      "Conditions de paiement": "30 jours fin de mois"
+    },
+    "Carthage Engrais SA": {
+      "Code client": "C1103",
+      "Raison sociale": "Carthage Engrais SA",
+      "Segment": "Standard",
+      "Pays": "Tunisie",
+      "Région commerciale": "Export hors UE",
+      "Commercial référent": "Karim Benali",
+      "Conditions de paiement": "Crédit documentaire ou virement avant expédition"
+    },
+    "Caux Pétrochimie": {
+      "Code client": "C1003",
+      "Raison sociale": "Caux Pétrochimie",
+      "Segment": "Grand compte",
+      "Pays": "France",
+      "Région commerciale": "France Nord",
+      "Commercial référent": "Claire Besson",
+      "Conditions de paiement": "60 jours date de facture"
+    },
+    "Champagne Biocarburants": {
+      "Code client": "C1042",
+      "Raison sociale": "Champagne Biocarburants",
+      "Segment": "Standard",
+      "Pays": "France",
+      "Région commerciale": "France Est",
+      "Commercial référent": "Sophie Marchal",
+      "Conditions de paiement": "30 jours fin de mois"
+    },
+    "Chimie du Val de Saône": {
+      "Code client": "C1043",
+      "Raison sociale": "Chimie du Val de Saône",
+      "Segment": "Standard",
+      "Pays": "France",
+      "Région commerciale": "France Est",
+      "Commercial référent": "Sophie Marchal",
+      "Conditions de paiement": "30 jours fin de mois"
+    },
+    "Corbières Distillerie": {
+      "Code client": "C1037",
+      "Raison sociale": "Corbières Distillerie",
+      "Segment": "Standard",
+      "Pays": "France",
+      "Région commerciale": "France Sud",
+      "Commercial référent": "Pierre Vasseur",
+      "Conditions de paiement": "30 jours fin de mois"
+    },
+    "Côte d'Opale Chimie": {
+      "Code client": "C1010",
+      "Raison sociale": "Côte d'Opale Chimie",
+      "Segment": "Standard",
+      "Pays": "France",
+      "Région commerciale": "France Nord",
+      "Commercial référent": "Thomas Lemaire",
+      "Conditions de paiement": "30 jours fin de mois"
+    },
+    "Dakar Raffinage SA": {
+      "Code client": "C1111",
+      "Raison sociale": "Dakar Raffinage SA",
+      "Segment": "Standard",
+      "Pays": "Sénégal",
+      "Région commerciale": "Export hors UE",
+      "Commercial référent": "Karim Benali",
+      "Conditions de paiement": "Crédit documentaire ou virement avant expédition"
+    },
+    "Dauphiné Silicones": {
+      "Code client": "C1048",
+      "Raison sociale": "Dauphiné Silicones",
+      "Segment": "Standard",
+      "Pays": "France",
+      "Région commerciale": "France Est",
+      "Commercial référent": "Julien Roche",
+      "Conditions de paiement": "30 jours fin de mois"
+    },
+    "Donau Raffinerie GmbH": {
+      "Code client": "C1077",
+      "Raison sociale": "Donau Raffinerie GmbH",
+      "Segment": "Standard",
+      "Pays": "Autriche",
+      "Région commerciale": "Allemagne-Autriche",
+      "Commercial référent": "Mathilde Colin",
+      "Conditions de paiement": "30 jours fin de mois"
+    },
+    "Egeo Petrochemicals SA": {
+      "Code client": "C1099",
+      "Raison sociale": "Egeo Petrochemicals SA",
+      "Segment": "Standard",
+      "Pays": "Grèce",
+      "Région commerciale": "Europe du Sud",
+      "Commercial référent": "Antoine Perrin",
+      "Conditions de paiement": "30 jours fin de mois"
+    },
+    "Elbe Petrochemie GmbH": {
+      "Code client": "C1073",
+      "Raison sociale": "Elbe Petrochemie GmbH",
+      "Segment": "Standard",
+      "Pays": "Allemagne",
+      "Région commerciale": "Allemagne-Autriche",
+      "Commercial référent": "Mathilde Colin",
+      "Conditions de paiement": "30 jours fin de mois"
+    },
+    "Engrais de la Somme": {
+      "Code client": "C1006",
+      "Raison sociale": "Engrais de la Somme",
+      "Segment": "Standard",
+      "Pays": "France",
+      "Région commerciale": "France Nord",
+      "Commercial référent": "Thomas Lemaire",
+      "Conditions de paiement": "30 jours fin de mois"
+    },
+    "Estérel Arômes": {
+      "Code client": "C1034",
+      "Raison sociale": "Estérel Arômes",
+      "Segment": "Standard",
+      "Pays": "France",
+      "Région commerciale": "France Sud",
+      "Commercial référent": "Nadia Haddad",
+      "Conditions de paiement": "30 jours fin de mois"
+    },
+    "Fjord Biofuels AS": {
+      "Code client": "C1110",
+      "Raison sociale": "Fjord Biofuels AS",
+      "Segment": "Standard",
+      "Pays": "Norvège",
+      "Région commerciale": "Export hors UE",
+      "Commercial référent": "Karim Benali",
+      "Conditions de paiement": "Crédit documentaire ou virement avant expédition"
+    },
+    "Flandre Polymères": {
+      "Code client": "C1007",
+      "Raison sociale": "Flandre Polymères",
+      "Segment": "Standard",
+      "Pays": "France",
+      "Région commerciale": "France Nord",
+      "Commercial référent": "Claire Besson",
+      "Conditions de paiement": "30 jours fin de mois"
+    },
+    "Franche-Comté Traitement de Surface": {
+      "Code client": "C1055",
+      "Raison sociale": "Franche-Comté Traitement de Surface",
+      "Segment": "Standard",
+      "Pays": "France",
+      "Région commerciale": "France Est",
+      "Commercial référent": "Sophie Marchal",
+      "Conditions de paiement": "30 jours fin de mois"
+    },
+    "Franken Gase GmbH": {
+      "Code client": "C1084",
+      "Raison sociale": "Franken Gase GmbH",
+      "Segment": "Standard",
+      "Pays": "Allemagne",
+      "Région commerciale": "Allemagne-Autriche",
+      "Commercial référent": "Markus Weber",
+      "Conditions de paiement": "30 jours fin de mois"
+    },
+    "Garonne Biocarburants": {
+      "Code client": "C1025",
+      "Raison sociale": "Garonne Biocarburants",
+      "Segment": "Standard",
+      "Pays": "France",
+      "Région commerciale": "France Sud",
+      "Commercial référent": "Pierre Vasseur",
+      "Conditions de paiement": "30 jours fin de mois"
+    },
+    "Gascogne Papiers": {
+      "Code client": "C1035",
+      "Raison sociale": "Gascogne Papiers",
+      "Segment": "Standard",
+      "Pays": "France",
+      "Région commerciale": "France Sud",
+      "Commercial référent": "Pierre Vasseur",
+      "Conditions de paiement": "30 jours fin de mois"
+    },
+    "Gent Solvents NV": {
+      "Code client": "C1064",
+      "Raison sociale": "Gent Solvents NV",
+      "Segment": "Standard",
+      "Pays": "Belgique",
+      "Région commerciale": "Benelux",
+      "Commercial référent": "Laura Giraud",
+      "Conditions de paiement": "30 jours fin de mois"
+    },
+    "Hainaut Résines": {
+      "Code client": "C1016",
+      "Raison sociale": "Hainaut Résines",
+      "Segment": "Standard",
+      "Pays": "France",
+      "Région commerciale": "France Nord",
+      "Commercial référent": "Thomas Lemaire",
+      "Conditions de paiement": "30 jours fin de mois"
+    },
+    "Hansa Biokraftstoffe GmbH": {
+      "Code client": "C1079",
+      "Raison sociale": "Hansa Biokraftstoffe GmbH",
+      "Segment": "Standard",
+      "Pays": "Allemagne",
+      "Région commerciale": "Allemagne-Autriche",
+      "Commercial référent": "Mathilde Colin",
+      "Conditions de paiement": "30 jours fin de mois"
+    },
+    "Humber Refining Ltd": {
+      "Code client": "C1108",
+      "Raison sociale": "Humber Refining Ltd",
+      "Segment": "Standard",
+      "Pays": "Royaume-Uni",
+      "Région commerciale": "Export hors UE",
+      "Commercial référent": "Karim Benali",
+      "Conditions de paiement": "Crédit documentaire ou virement avant expédition"
+    },
+    "Isère Hydrogène": {
+      "Code client": "C1049",
+      "Raison sociale": "Isère Hydrogène",
+      "Segment": "Standard",
+      "Pays": "France",
+      "Région commerciale": "France Est",
+      "Commercial référent": "Sophie Marchal",
+      "Conditions de paiement": "30 jours fin de mois"
+    },
+    "Jura Plastiques": {
+      "Code client": "C1047",
+      "Raison sociale": "Jura Plastiques",
+      "Segment": "Standard",
+      "Pays": "France",
+      "Région commerciale": "France Est",
+      "Commercial référent": "Sophie Marchal",
+      "Conditions de paiement": "30 jours fin de mois"
+    },
+    "Khalij Refining Company": {
+      "Code client": "C1100",
+      "Raison sociale": "Khalij Refining Company",
+      "Segment": "Standard",
+      "Pays": "Arabie saoudite",
+      "Région commerciale": "Export hors UE",
+      "Commercial référent": "Karim Benali",
+      "Conditions de paiement": "Crédit documentaire ou virement avant expédition"
+    },
+    "Languedoc Solvants": {
+      "Code client": "C1026",
+      "Raison sociale": "Languedoc Solvants",
+      "Segment": "Standard",
+      "Pays": "France",
+      "Région commerciale": "France Sud",
+      "Commercial référent": "Nadia Haddad",
+      "Conditions de paiement": "30 jours fin de mois"
+    },
+    "Limburg Kunststoffen BV": {
+      "Code client": "C1065",
+      "Raison sociale": "Limburg Kunststoffen BV",
+      "Segment": "Standard",
+      "Pays": "Pays-Bas",
+      "Région commerciale": "Benelux",
+      "Commercial référent": "Laura Giraud",
+      "Conditions de paiement": "30 jours fin de mois"
+    },
+    "Liège Carbochimie SA": {
+      "Code client": "C1063",
+      "Raison sociale": "Liège Carbochimie SA",
+      "Segment": "Standard",
+      "Pays": "Belgique",
+      "Région commerciale": "Benelux",
+      "Commercial référent": "Laura Giraud",
+      "Conditions de paiement": "30 jours fin de mois"
+    },
+    "Loire Estuaire Raffinage": {
+      "Code client": "C1004",
+      "Raison sociale": "Loire Estuaire Raffinage",
+      "Segment": "Grand compte",
+      "Pays": "France",
+      "Région commerciale": "France Nord",
+      "Commercial référent": "Thomas Lemaire",
+      "Conditions de paiement": "60 jours date de facture"
+    },
+    "Lombarda Chimica SpA": {
+      "Code client": "C1094",
+      "Raison sociale": "Lombarda Chimica SpA",
+      "Segment": "Standard",
+      "Pays": "Italie",
+      "Région commerciale": "Europe du Sud",
+      "Commercial référent": "Elena Rossi",
+      "Conditions de paiement": "30 jours fin de mois"
+    },
+    "Lorraine Carbochimie": {
+      "Code client": "C1045",
+      "Raison sociale": "Lorraine Carbochimie",
+      "Segment": "Standard",
+      "Pays": "France",
+      "Région commerciale": "France Est",
+      "Commercial référent": "Sophie Marchal",
+      "Conditions de paiement": "30 jours fin de mois"
+    },
+    "Lusitana de Resinas Lda": {
+      "Code client": "C1093",
+      "Raison sociale": "Lusitana de Resinas Lda",
+      "Segment": "Standard",
+      "Pays": "Portugal",
+      "Région commerciale": "Europe du Sud",
+      "Commercial référent": "Antoine Perrin",
+      "Conditions de paiement": "30 jours fin de mois"
+    },
+    "Luxembourg Gaz Industriels SA": {
+      "Code client": "C1067",
+      "Raison sociale": "Luxembourg Gaz Industriels SA",
+      "Segment": "Standard",
+      "Pays": "Luxembourg",
+      "Région commerciale": "Benelux",
+      "Commercial référent": "Laura Giraud",
+      "Conditions de paiement": "30 jours fin de mois"
+    },
+    "Lyon Sud Pétrochimie": {
+      "Code client": "C1040",
+      "Raison sociale": "Lyon Sud Pétrochimie",
+      "Segment": "Grand compte",
+      "Pays": "France",
+      "Région commerciale": "France Est",
+      "Commercial référent": "Julien Roche",
+      "Conditions de paiement": "60 jours date de facture"
+    },
+    "Lys Amidonnerie": {
+      "Code client": "C1015",
+      "Raison sociale": "Lys Amidonnerie",
+      "Segment": "Standard",
+      "Pays": "France",
+      "Région commerciale": "France Nord",
+      "Commercial référent": "Claire Besson",
+      "Conditions de paiement": "30 jours fin de mois"
+    },
+    "Léman Chimie Fine SA": {
+      "Code client": "C1109",
+      "Raison sociale": "Léman Chimie Fine SA",
+      "Segment": "Standard",
+      "Pays": "Suisse",
+      "Région commerciale": "Export hors UE",
+      "Commercial référent": "Karim Benali",
+      "Conditions de paiement": "Crédit documentaire ou virement avant expédition"
+    },
+    "Maas Chemie BV": {
+      "Code client": "C1062",
+      "Raison sociale": "Maas Chemie BV",
+      "Segment": "Standard",
+      "Pays": "Pays-Bas",
+      "Région commerciale": "Benelux",
+      "Commercial référent": "Laura Giraud",
+      "Conditions de paiement": "30 jours fin de mois"
+    },
+    "Maghreb Raffinage SA": {
+      "Code client": "C1102",
+      "Raison sociale": "Maghreb Raffinage SA",
+      "Segment": "Standard",
+      "Pays": "Algérie",
+      "Région commerciale": "Export hors UE",
+      "Commercial référent": "Karim Benali",
+      "Conditions de paiement": "Crédit documentaire ou virement avant expédition"
+    },
+    "Main Lackfabrik GmbH": {
+      "Code client": "C1076",
+      "Raison sociale": "Main Lackfabrik GmbH",
+      "Segment": "Standard",
+      "Pays": "Allemagne",
+      "Région commerciale": "Allemagne-Autriche",
+      "Commercial référent": "Markus Weber",
+      "Conditions de paiement": "30 jours fin de mois"
+    },
+    "Maine Peintures": {
+      "Code client": "C1019",
+      "Raison sociale": "Maine Peintures",
+      "Segment": "Standard",
+      "Pays": "France",
+      "Région commerciale": "France Nord",
+      "Commercial référent": "Claire Besson",
+      "Conditions de paiement": "30 jours fin de mois"
+    },
+    "Meuse Agrochimie": {
+      "Code client": "C1053",
+      "Raison sociale": "Meuse Agrochimie",
+      "Segment": "Standard",
+      "Pays": "France",
+      "Région commerciale": "France Est",
+      "Commercial référent": "Sophie Marchal",
+      "Conditions de paiement": "30 jours fin de mois"
+    },
+    "Midi Gaz Industriels": {
+      "Code client": "C1029",
+      "Raison sociale": "Midi Gaz Industriels",
+      "Segment": "Standard",
+      "Pays": "France",
+      "Région commerciale": "France Sud",
+      "Commercial référent": "Pierre Vasseur",
+      "Conditions de paiement": "30 jours fin de mois"
+    },
+    "Moselle Engrais": {
+      "Code client": "C1046",
+      "Raison sociale": "Moselle Engrais",
+      "Segment": "Standard",
+      "Pays": "France",
+      "Région commerciale": "France Est",
+      "Commercial référent": "Julien Roche",
+      "Conditions de paiement": "30 jours fin de mois"
+    },
+    "Münsterland Harze GmbH": {
+      "Code client": "C1081",
+      "Raison sociale": "Münsterland Harze GmbH",
+      "Segment": "Standard",
+      "Pays": "Allemagne",
+      "Région commerciale": "Allemagne-Autriche",
+      "Commercial référent": "Mathilde Colin",
+      "Conditions de paiement": "30 jours fin de mois"
+    },
+    "Nil Delta Fertilizers Co.": {
+      "Code client": "C1106",
+      "Raison sociale": "Nil Delta Fertilizers Co.",
+      "Segment": "Standard",
+      "Pays": "Égypte",
+      "Région commerciale": "Export hors UE",
+      "Commercial référent": "Karim Benali",
+      "Conditions de paiement": "Crédit documentaire ou virement avant expédition"
+    },
+    "Noordzee Energie BV": {
+      "Code client": "C1069",
+      "Raison sociale": "Noordzee Energie BV",
+      "Segment": "Standard",
+      "Pays": "Pays-Bas",
+      "Région commerciale": "Benelux",
+      "Commercial référent": "Laura Giraud",
+      "Conditions de paiement": "30 jours fin de mois"
+    },
+    "Nordsee Raffinerie GmbH": {
+      "Code client": "C1071",
+      "Raison sociale": "Nordsee Raffinerie GmbH",
+      "Segment": "Grand compte",
+      "Pays": "Allemagne",
+      "Région commerciale": "Allemagne-Autriche",
+      "Commercial référent": "Mathilde Colin",
+      "Conditions de paiement": "60 jours date de facture"
+    },
+    "Normandie Gaz Industriels": {
+      "Code client": "C1012",
+      "Raison sociale": "Normandie Gaz Industriels",
+      "Segment": "Standard",
+      "Pays": "France",
+      "Région commerciale": "France Nord",
+      "Commercial référent": "Thomas Lemaire",
+      "Conditions de paiement": "30 jours fin de mois"
+    },
+    "Norval Chimie": {
+      "Code client": "C1002",
+      "Raison sociale": "Norval Chimie",
+      "Segment": "Grand compte",
+      "Pays": "France",
+      "Région commerciale": "France Nord",
+      "Commercial référent": "Thomas Lemaire",
+      "Conditions de paiement": "60 jours date de facture"
+    },
+    "Oberpfalz Energie GmbH": {
+      "Code client": "C1080",
+      "Raison sociale": "Oberpfalz Energie GmbH",
+      "Segment": "Standard",
+      "Pays": "Allemagne",
+      "Région commerciale": "Allemagne-Autriche",
+      "Commercial référent": "Markus Weber",
+      "Conditions de paiement": "30 jours fin de mois"
+    },
+    "Occitane Engrais": {
+      "Code client": "C1023",
+      "Raison sociale": "Occitane Engrais",
+      "Segment": "Standard",
+      "Pays": "France",
+      "Région commerciale": "France Sud",
+      "Commercial référent": "Pierre Vasseur",
+      "Conditions de paiement": "30 jours fin de mois"
+    },
+    "Oléochimie de Picardie": {
+      "Code client": "C1005",
+      "Raison sociale": "Oléochimie de Picardie",
+      "Segment": "Standard",
+      "Pays": "France",
+      "Région commerciale": "France Nord",
+      "Commercial référent": "Thomas Lemaire",
+      "Conditions de paiement": "30 jours fin de mois"
+    },
+    "Petroquímica do Douro SA": {
+      "Code client": "C1092",
+      "Raison sociale": "Petroquímica do Douro SA",
+      "Segment": "Standard",
+      "Pays": "Portugal",
+      "Région commerciale": "Europe du Sud",
+      "Commercial référent": "Elena Rossi",
+      "Conditions de paiement": "30 jours fin de mois"
+    },
+    "Petrosud Raffinage": {
+      "Code client": "C1021",
+      "Raison sociale": "Petrosud Raffinage",
+      "Segment": "Grand compte",
+      "Pays": "France",
+      "Région commerciale": "France Sud",
+      "Commercial référent": "Pierre Vasseur",
+      "Conditions de paiement": "60 jours date de facture"
+    },
+    "Piemonte Idrogeno Srl": {
+      "Code client": "C1098",
+      "Raison sociale": "Piemonte Idrogeno Srl",
+      "Segment": "Standard",
+      "Pays": "Italie",
+      "Région commerciale": "Europe du Sud",
+      "Commercial référent": "Elena Rossi",
+      "Conditions de paiement": "30 jours fin de mois"
+    },
+    "Plaine d'Alsace Chimie": {
+      "Code client": "C1044",
+      "Raison sociale": "Plaine d'Alsace Chimie",
+      "Segment": "Standard",
+      "Pays": "France",
+      "Région commerciale": "France Est",
+      "Commercial référent": "Julien Roche",
+      "Conditions de paiement": "30 jours fin de mois"
+    },
+    "Provence Polymères": {
+      "Code client": "C1024",
+      "Raison sociale": "Provence Polymères",
+      "Segment": "Standard",
+      "Pays": "France",
+      "Région commerciale": "France Sud",
+      "Commercial référent": "Nadia Haddad",
+      "Conditions de paiement": "30 jours fin de mois"
+    },
+    "Pyrénées Énergie": {
+      "Code client": "C1027",
+      "Raison sociale": "Pyrénées Énergie",
+      "Segment": "Standard",
+      "Pays": "France",
+      "Région commerciale": "France Sud",
+      "Commercial référent": "Pierre Vasseur",
+      "Conditions de paiement": "30 jours fin de mois"
+    },
+    "Química del Ebro SA": {
+      "Code client": "C1088",
+      "Raison sociale": "Química del Ebro SA",
+      "Segment": "Standard",
+      "Pays": "Espagne",
+      "Région commerciale": "Europe du Sud",
+      "Commercial référent": "Elena Rossi",
+      "Conditions de paiement": "30 jours fin de mois"
+    },
+    "Raffineria dell'Adriatico SpA": {
+      "Code client": "C1087",
+      "Raison sociale": "Raffineria dell'Adriatico SpA",
+      "Segment": "Grand compte",
+      "Pays": "Italie",
+      "Région commerciale": "Europe du Sud",
+      "Commercial référent": "Antoine Perrin",
+      "Conditions de paiement": "60 jours date de facture"
+    },
+    "Raffinerie de l'Estuaire": {
+      "Code client": "C1001",
+      "Raison sociale": "Raffinerie de l'Estuaire",
+      "Segment": "Grand compte",
+      "Pays": "France",
+      "Région commerciale": "France Nord",
+      "Commercial référent": "Claire Besson",
+      "Conditions de paiement": "60 jours date de facture"
+    },
+    "Refinería del Levante SA": {
+      "Code client": "C1086",
+      "Raison sociale": "Refinería del Levante SA",
+      "Segment": "Grand compte",
+      "Pays": "Espagne",
+      "Région commerciale": "Europe du Sud",
+      "Commercial référent": "Elena Rossi",
+      "Conditions de paiement": "60 jours date de facture"
+    },
+    "Rheinland Chemie GmbH": {
+      "Code client": "C1070",
+      "Raison sociale": "Rheinland Chemie GmbH",
+      "Segment": "Grand compte",
+      "Pays": "Allemagne",
+      "Région commerciale": "Allemagne-Autriche",
+      "Commercial référent": "Markus Weber",
+      "Conditions de paiement": "60 jours date de facture"
+    },
+    "Rhodanie Polymères": {
+      "Code client": "C1039",
+      "Raison sociale": "Rhodanie Polymères",
+      "Segment": "Grand compte",
+      "Pays": "France",
+      "Région commerciale": "France Est",
+      "Commercial référent": "Sophie Marchal",
+      "Conditions de paiement": "60 jours date de facture"
+    },
+    "Rotterdam Biofuels BV": {
+      "Code client": "C1061",
+      "Raison sociale": "Rotterdam Biofuels BV",
+      "Segment": "Standard",
+      "Pays": "Pays-Bas",
+      "Région commerciale": "Benelux",
+      "Commercial référent": "Laura Giraud",
+      "Conditions de paiement": "30 jours fin de mois"
+    },
+    "Roussillon Agrochimie": {
+      "Code client": "C1033",
+      "Raison sociale": "Roussillon Agrochimie",
+      "Segment": "Standard",
+      "Pays": "France",
+      "Région commerciale": "France Sud",
+      "Commercial référent": "Pierre Vasseur",
+      "Conditions de paiement": "30 jours fin de mois"
+    },
+    "Ruhr Polymere GmbH": {
+      "Code client": "C1072",
+      "Raison sociale": "Ruhr Polymere GmbH",
+      "Segment": "Standard",
+      "Pays": "Allemagne",
+      "Région commerciale": "Allemagne-Autriche",
+      "Commercial référent": "Markus Weber",
+      "Conditions de paiement": "30 jours fin de mois"
+    },
+    "Saar Kohlechemie GmbH": {
+      "Code client": "C1085",
+      "Raison sociale": "Saar Kohlechemie GmbH",
+      "Segment": "Standard",
+      "Pays": "Allemagne",
+      "Région commerciale": "Allemagne-Autriche",
+      "Commercial référent": "Mathilde Colin",
+      "Conditions de paiement": "30 jours fin de mois"
+    },
+    "Sachsen Düngemittel GmbH": {
+      "Code client": "C1075",
+      "Raison sociale": "Sachsen Düngemittel GmbH",
+      "Segment": "Standard",
+      "Pays": "Allemagne",
+      "Région commerciale": "Allemagne-Autriche",
+      "Commercial référent": "Mathilde Colin",
+      "Conditions de paiement": "30 jours fin de mois"
+    },
+    "Savoie Électrochimie": {
+      "Code client": "C1050",
+      "Raison sociale": "Savoie Électrochimie",
+      "Segment": "Standard",
+      "Pays": "France",
+      "Région commerciale": "France Est",
+      "Commercial référent": "Julien Roche",
+      "Conditions de paiement": "30 jours fin de mois"
+    },
+    "Saône Valorisation Énergétique": {
+      "Code client": "C1057",
+      "Raison sociale": "Saône Valorisation Énergétique",
+      "Segment": "Standard",
+      "Pays": "France",
+      "Région commerciale": "France Est",
+      "Commercial référent": "Sophie Marchal",
+      "Conditions de paiement": "30 jours fin de mois"
+    },
+    "Scheldt Polymers NV": {
+      "Code client": "C1060",
+      "Raison sociale": "Scheldt Polymers NV",
+      "Segment": "Standard",
+      "Pays": "Belgique",
+      "Région commerciale": "Benelux",
+      "Commercial référent": "Laura Giraud",
+      "Conditions de paiement": "30 jours fin de mois"
+    },
+    "Schwaben Kunststoff GmbH": {
+      "Code client": "C1078",
+      "Raison sociale": "Schwaben Kunststoff GmbH",
+      "Segment": "Standard",
+      "Pays": "Allemagne",
+      "Région commerciale": "Allemagne-Autriche",
+      "Commercial référent": "Markus Weber",
+      "Conditions de paiement": "30 jours fin de mois"
+    },
+    "Seine Aval Énergie": {
+      "Code client": "C1008",
+      "Raison sociale": "Seine Aval Énergie",
+      "Segment": "Standard",
+      "Pays": "France",
+      "Région commerciale": "France Nord",
+      "Commercial référent": "Thomas Lemaire",
+      "Conditions de paiement": "30 jours fin de mois"
+    },
+    "Sicilia Fertilizzanti SpA": {
+      "Code client": "C1097",
+      "Raison sociale": "Sicilia Fertilizzanti SpA",
+      "Segment": "Standard",
+      "Pays": "Italie",
+      "Région commerciale": "Europe du Sud",
+      "Commercial référent": "Antoine Perrin",
+      "Conditions de paiement": "30 jours fin de mois"
+    },
+    "Steiermark Zellstoff GmbH": {
+      "Code client": "C1083",
+      "Raison sociale": "Steiermark Zellstoff GmbH",
+      "Segment": "Standard",
+      "Pays": "Autriche",
+      "Région commerciale": "Allemagne-Autriche",
+      "Commercial référent": "Mathilde Colin",
+      "Conditions de paiement": "30 jours fin de mois"
+    },
+    "Sucrerie des Hauts Plateaux": {
+      "Code client": "C1011",
+      "Raison sociale": "Sucrerie des Hauts Plateaux",
+      "Segment": "Standard",
+      "Pays": "France",
+      "Région commerciale": "France Nord",
+      "Commercial référent": "Claire Besson",
+      "Conditions de paiement": "30 jours fin de mois"
+    },
+    "Sud Bitumes": {
+      "Code client": "C1032",
+      "Raison sociale": "Sud Bitumes",
+      "Segment": "Standard",
+      "Pays": "France",
+      "Région commerciale": "France Sud",
+      "Commercial référent": "Nadia Haddad",
+      "Conditions de paiement": "30 jours fin de mois"
+    },
+    "Tajo Biocombustibles SL": {
+      "Code client": "C1091",
+      "Raison sociale": "Tajo Biocombustibles SL",
+      "Segment": "Standard",
+      "Pays": "Espagne",
+      "Région commerciale": "Europe du Sud",
+      "Commercial référent": "Antoine Perrin",
+      "Conditions de paiement": "30 jours fin de mois"
+    },
+    "Tarn Plastiques": {
+      "Code client": "C1036",
+      "Raison sociale": "Tarn Plastiques",
+      "Segment": "Standard",
+      "Pays": "France",
+      "Région commerciale": "France Sud",
+      "Commercial référent": "Nadia Haddad",
+      "Conditions de paiement": "30 jours fin de mois"
+    },
+    "Thames Valley Chemicals Ltd": {
+      "Code client": "C1107",
+      "Raison sociale": "Thames Valley Chemicals Ltd",
+      "Segment": "Standard",
+      "Pays": "Royaume-Uni",
+      "Région commerciale": "Export hors UE",
+      "Commercial référent": "Karim Benali",
+      "Conditions de paiement": "Crédit documentaire ou virement avant expédition"
+    },
+    "Tirol Wasserstoff GmbH": {
+      "Code client": "C1082",
+      "Raison sociale": "Tirol Wasserstoff GmbH",
+      "Segment": "Standard",
+      "Pays": "Autriche",
+      "Région commerciale": "Allemagne-Autriche",
+      "Commercial référent": "Markus Weber",
+      "Conditions de paiement": "30 jours fin de mois"
+    },
+    "Toscana Solventi Srl": {
+      "Code client": "C1096",
+      "Raison sociale": "Toscana Solventi Srl",
+      "Segment": "Standard",
+      "Pays": "Italie",
+      "Région commerciale": "Europe du Sud",
+      "Commercial référent": "Elena Rossi",
+      "Conditions de paiement": "30 jours fin de mois"
+    },
+    "Val de Seine Solvants": {
+      "Code client": "C1014",
+      "Raison sociale": "Val de Seine Solvants",
+      "Segment": "Standard",
+      "Pays": "France",
+      "Région commerciale": "France Nord",
+      "Commercial référent": "Thomas Lemaire",
+      "Conditions de paiement": "30 jours fin de mois"
+    },
+    "Veneta Polimeri SpA": {
+      "Code client": "C1095",
+      "Raison sociale": "Veneta Polimeri SpA",
+      "Segment": "Standard",
+      "Pays": "Italie",
+      "Région commerciale": "Europe du Sud",
+      "Commercial référent": "Antoine Perrin",
+      "Conditions de paiement": "30 jours fin de mois"
+    },
+    "Verrerie de la Bresle": {
+      "Code client": "C1013",
+      "Raison sociale": "Verrerie de la Bresle",
+      "Segment": "Standard",
+      "Pays": "France",
+      "Région commerciale": "France Nord",
+      "Commercial référent": "Claire Besson",
+      "Conditions de paiement": "30 jours fin de mois"
+    },
+    "Vosges Papeterie": {
+      "Code client": "C1052",
+      "Raison sociale": "Vosges Papeterie",
+      "Segment": "Standard",
+      "Pays": "France",
+      "Région commerciale": "France Est",
+      "Commercial référent": "Julien Roche",
+      "Conditions de paiement": "30 jours fin de mois"
+    },
+    "Wallonie Engrais SA": {
+      "Code client": "C1068",
+      "Raison sociale": "Wallonie Engrais SA",
+      "Segment": "Standard",
+      "Pays": "Belgique",
+      "Région commerciale": "Benelux",
+      "Commercial référent": "Laura Giraud",
+      "Conditions de paiement": "30 jours fin de mois"
+    },
+    "Zeeland Refining BV": {
+      "Code client": "C1059",
+      "Raison sociale": "Zeeland Refining BV",
+      "Segment": "Grand compte",
+      "Pays": "Pays-Bas",
+      "Région commerciale": "Benelux",
+      "Commercial référent": "Laura Giraud",
+      "Conditions de paiement": "60 jours date de facture"
+    },
+    "Énergie Vallée du Rhône": {
+      "Code client": "C1041",
+      "Raison sociale": "Énergie Vallée du Rhône",
+      "Segment": "Standard",
+      "Pays": "France",
+      "Région commerciale": "France Est",
+      "Commercial référent": "Julien Roche",
+      "Conditions de paiement": "30 jours fin de mois"
+    },
+    "Étang de Berre Chimie": {
+      "Code client": "C1022",
+      "Raison sociale": "Étang de Berre Chimie",
+      "Segment": "Grand compte",
+      "Pays": "France",
+      "Région commerciale": "France Sud",
+      "Commercial référent": "Nadia Haddad",
+      "Conditions de paiement": "60 jours date de facture"
+    }
+  }
+}
